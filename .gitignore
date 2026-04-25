@@ -1,1 +1,15 @@
 reference
+CONTEXT.md
+
+# Secrets
+.env
+
+# Test artifacts
+*.env
+log.txt
+login_invalid.txt
+login_*.json
+login_payload.json
+bypass_payload.json
+vaccine_payload.json
+tokens.env
