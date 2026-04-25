@@ -4,6 +4,20 @@ Sistema de gestión segura para una clínica veterinaria. Implementa control de 
 
 ---
 
+## Stack
+
+| Capa        | Tecnología                                    |
+|-------------|-----------------------------------------------|
+| Frontend    | Next.js · React · TypeScript · Tailwind CSS |
+| API         | Node.js · Express · TypeScript              |
+| Base de datos | PostgreSQL (RLS, roles, procedures, triggers, vistas) |
+| Caché       | Redis                                       |
+| Auth        | JWT (`jsonwebtoken`)                          |
+| ORM / driver | `pg` (node-postgres) con prepared statements |
+| Infraestructura | Docker · Docker Compose                  |
+
+---
+
 ## Uso
 
 ```bash
